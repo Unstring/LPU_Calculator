@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 
-function Screen(): JSX.Element {
+function Screen({screenText}): JSX.Element {
+//     const [textsToCalculate, setTextToCalculate] = useState('demo');
+// useEffect(()=>{
+//     setTextToCalculate(
+//         textsToCalculate + screenText
+//     )
+// },[]);
   return (
     <View>
-      <Text>Screen Component</Text>
+      <Text>{screenText}</Text>
     </View>
   );
 }

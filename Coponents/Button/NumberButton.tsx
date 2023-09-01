@@ -16,7 +16,7 @@ function Numbers({char, action}): JSX.Element {
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: 'red',
+    backgroundColor: '',
   },
 });
 
